@@ -31,8 +31,8 @@ int main(){
         field.n = N;
         field.num = init_num(field.num, field.n);
         field.matrix = init_matrix(field.matrix, field.n);
-        flag.rflag = init_rflag(flag.rflag, field.n);
-        flag.cflag = init_cflag(flag.cflag, field.n);
+        //flag.rflag = init_rflag(flag.rflag, field.n);
+        //flag.cflag = init_cflag(flag.cflag, field.n);
         flag.nflag = 0;
         for (int j = 0; j < field.n * field.n; j++){
             field.num[j / field.n][j % field.n] = data[i][j];

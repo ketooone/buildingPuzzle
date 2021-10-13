@@ -3,8 +3,8 @@
 
 struct flags
 {
-	int	*rflag;
-	int	*cflag;
+	int	arrflag;
+	int	placeflag;
 	int	nflag;
 };
 typedef struct flags flag;

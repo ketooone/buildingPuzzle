@@ -6,12 +6,13 @@ void write_answer(field *field);
 void method1(field *field, flag *flag);
 void method2(field *field, flag *flag);
 void method3(field *field, flag *flag);
+void method4(field *field, flag *flag);
 
 void make_nxn(int depth, field *field, flag *flag){
     method1(field, flag);
     method2(field, flag);
-    //field->matrix[2][3] = 0;
     method3(field, flag);
+    method4(field, flag);
     write_answer(field);
     if (count(*field)){
         printf("complete!\n\n");
