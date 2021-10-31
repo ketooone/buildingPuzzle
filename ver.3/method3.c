@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 void method3(field *field, flag *flag){
     int *count = (int *)malloc(sizeof(int) * field->n);
     for (int i = 0; i < field->n; i++){
