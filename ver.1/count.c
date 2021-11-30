@@ -62,17 +62,25 @@ int count_rowright(int rr, int n, int **matrix){
 
 int count(field field){
     for (int i = 0; i < field.n; i++){
-        if (count_colup(i, field.n, field.matrix) != field.num[0][i]){
-            return (0);
+        if (field.num[0][i] != 0){
+            if (count_colup(i, field.n, field.matrix) != field.num[0][i]){
+                return (0);
+            }
         }
-        if (count_coldown(i, field.n, field.matrix) != field.num[1][i]){
-            return (0);
+        if (field.num[1][i] != 0){
+            if (count_coldown(i, field.n, field.matrix) != field.num[1][i]){
+                return (0);
+            }
         }
-        if (count_rowleft(i, field.n, field.matrix) != field.num[2][i]){
-            return (0);
+        if (field.num[2][i] != 0){
+            if (count_rowleft(i, field.n, field.matrix) != field.num[2][i]){
+                return (0);
+            }
         }
-        if (count_rowright(i, field.n, field.matrix) != field.num[3][i]){
-            return (0);
+        if (field.num[3][i] != 0){
+            if (count_rowright(i, field.n, field.matrix) != field.num[3][i]){
+                return (0);
+            }
         }
     }
     return (1);

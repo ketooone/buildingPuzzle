@@ -7,8 +7,6 @@ int count_colup(int cu, int n, int **matrix);
 int count_coldown(int cd, int n, int **matrix);
 int count_rowleft(int rl, int n, int **matrix);
 int count_rowright(int rr, int n, int **matrix);
-//todo
-//関数にまとめ
 
 //並び替え
 int next_permutation(int *arr, int len) {
