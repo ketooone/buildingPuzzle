@@ -2,7 +2,6 @@
 #include "fields.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdio.h>
 
 void method6(field *field, flag *flag){
     int subcnt;

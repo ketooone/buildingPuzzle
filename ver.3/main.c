@@ -16,19 +16,19 @@ int main(){
     field field;
     flag flag;
     FILE *fp;
-    int data[100][N * 4];
+    int data[101][N * 4];
     field.completeCount = 0;
     field.falseCount = 0;
 
     fp = fopen("num.dat", "r");
-    for (int i = 0; i < 100; i++){
+    for (int i = 0; i < 101; i++){
         for (int j = 0; j < N * 4; j++){
             fscanf(fp, "%d", &data[i][j]);
         }
     }
     fclose(fp);
 
-    for (int i = 0; i < 100; i++){
+    for (int i = 0; i < 101; i++){
         printf("No.%d\n", i + 1);
         field.n = N;
         field.num = init_num(field.num, field.n);

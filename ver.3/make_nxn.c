@@ -9,14 +9,15 @@ void method3(field *field, flag *flag);
 void method4(field *field, flag *flag);
 void method5(field *field, flag *flag);
 void method6(field *field, flag *flag);
+void method7(field *field, flag *flag);
 
 void make_nxn(int depth, field *field, flag *flag){
     method1(field, flag);
     method2(field, flag);
-    method3(field, flag);
+    //method3(field, flag);
+    //method6(field, flag);
+    method7(field, flag);
     //method5(field, flag);
-    method6(field, flag);
-    method5(field, flag);
     write_answer(field);
     if (count(*field)){
         printf("success!\n\n");

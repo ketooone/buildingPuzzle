@@ -2,7 +2,7 @@
 #include "fields.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdio.h>
+
 int count_colup(int cu, int n, int **matrix);
 int count_coldown(int cd, int n, int **matrix);
 int count_rowleft(int rl, int n, int **matrix);
