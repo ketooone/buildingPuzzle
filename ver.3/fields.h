@@ -7,6 +7,9 @@ struct fields{
 	int	n;
 	int completeCount;
 	int falseCount;
+	int zeroCount;
+	int totalCount;
+	int falseBilCount;
 };
 typedef	struct fields field;
 #endif

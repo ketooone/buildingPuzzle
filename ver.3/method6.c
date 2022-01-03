@@ -3,6 +3,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void method3(field *field, flag *flag);
+void method4(field *field, flag *flag);
+
+// todo numcnt
+
 void method6(field *field, flag *flag){
     int subcnt;
     int cnt;
@@ -108,5 +113,7 @@ void method6(field *field, flag *flag){
                 }
             } 
         }
+        method3(field, flag);
+        method4(field, flag);
     } while (repeatcnt == 1);
 }

@@ -1,0 +1,1 @@
+gcc init_num.c init_rflag.c all_free.c main.c write_answer.c count.c init_matrix.c make_nxn.c method1.c method2.c method3.c method4.c method5.c method6.c method7.c method8.c -o a.out

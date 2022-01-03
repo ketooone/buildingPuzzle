@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+//todo numcnt
 void method4(field *field, flag *flag){
     int count;
 

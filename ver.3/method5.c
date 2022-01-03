@@ -8,6 +8,8 @@ int count_coldown(int cd, int n, int **matrix);
 int count_rowleft(int rl, int n, int **matrix);
 int count_rowright(int rr, int n, int **matrix);
 
+//todo numcnt
+
 //並び替え
 int next_permutation(int *arr, int len) {
     int left = len - 2;

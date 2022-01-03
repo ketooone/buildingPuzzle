@@ -6,6 +6,7 @@ struct flags
 	int	arrflag;
 	int	placeflag;
 	int	nflag;
+	int *rflag;
 };
 typedef struct flags flag;
 #endif
